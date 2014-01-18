@@ -1,3 +1,4 @@
+#Makefile for monte carlo
 CC = gcc
 LIBS = -lm
 EXE = estpi
