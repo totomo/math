@@ -60,7 +60,8 @@ int main(int argc, char **argv){
 	for( i=0; i<number; i++ ){
 		count += isContainCircle(p);
 	}
-	fprintf(stdout, "result: %3.7f\n", (double)count / number * 4.0);
+	//fprintf(stdout, "result: %3.7f\n", (double)count / number * 4.0);
+	fprintf(stdout, "%ld %3.7f\n", number, (double)count / number * 4.0);
 	return 0;
 }
 
