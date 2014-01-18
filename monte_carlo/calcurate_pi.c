@@ -1,3 +1,8 @@
+/*
+ *	calcurate pi by using monte calro simulation
+ *	author: totomo
+*/
+
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
